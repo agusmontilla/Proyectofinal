@@ -1,0 +1,67 @@
+.widthProducto{	
+	width: 25%;
+	margin-top: 40px ;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	margin: 25px;
+	width: 25%;
+	display: inline-block;
+}
+.paddingFigure{
+	@extend .widthProducto;
+	
+}
+
+
+@mixin texto($tamaño, $centrado, $fontweight, $background){
+	font-size: $tamaño;
+	color: $black;
+	text-align: $centrado;
+	font-weight: $fontweight;
+	background-color: $background;
+}
+h1{
+	@include texto(4rem, center , 500, darkgoldenrod);
+}
+
+h2{
+	@include texto(3rem, center, 400, none)
+}
+
+
+$paleta:(
+	"uno": palegoldenrod,
+	"dos":darkgoldenrod,
+	"tres":#D9CA9C,
+	"cuatro": black,
+	"cinco": white,
+	);
+
+
+.backgoundPromos{
+	background-color: map-get($map:$paleta, $key:"cinco");
+}
+.textSizeX{
+	font-size: $textXl;
+}
+.textSizeM{
+	font-size: $textLg;
+}
+.textCenter{
+	text-align: center;
+}
+.textLeft{
+	text-align: left;
+}
+.textRight{
+	text-align: right;
+}
+.textBold{
+	font-weight: $textBold;
+}
+.textLight{
+	font-weight: $textLight;
+}
+.textRegular{
+	font-weight: $textRegular;
+}

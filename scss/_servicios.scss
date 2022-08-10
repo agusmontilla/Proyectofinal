@@ -1,0 +1,58 @@
+.paddingService{
+	padding-top: 70px;
+	overflow: hidden;
+
+}
+.marginTopp{
+	padding: 0px 60px;
+	width: 35%;
+
+}
+.backgroundBarra{
+	background-color: #dfba96;
+	width: 100%;
+	padding: 20px 0;
+
+}
+.imageEventos{
+		width: 90%;
+}
+.asdf{
+	width: 30%;
+}
+
+.backgroundEntrega{
+	background-color: #e9c4a0;
+
+}
+.backgroundAsesor{
+	background-color: #ffddb8;
+
+}
+
+@media only screen and (max-width:  992px){
+	.marginTopp{
+	padding: 0px 30px;
+	width: 90%;
+	}
+	.imageEventos{
+		width: 90%;
+	}
+}
+
+
+
+@media only screen and (max-width:  320px){
+	
+	h1{
+		width: 100vw;
+		font-size: 35px;
+	}
+	.h1width{
+		height: 85px;
+	}
+	
+	
+}
+
+	

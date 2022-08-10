@@ -1,0 +1,23 @@
+#paddingContacto{
+	padding-top: 70px;
+}
+
+.centrarIzq{
+	margin: 0 50px ;
+}
+@media only screen and (min-width:  992px){
+.marginRight{
+	margin-right: 150px;
+}
+.marginLeft{
+	margin-left: 150px
+}
+}
+@media only screen and (max-width:  512px){
+	div{
+		font-size: 2rem;
+	}
+	.articleWidth{
+		margin: 25px 0;
+	}
+}

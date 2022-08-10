@@ -1,0 +1,270 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+.widthProducto, .paddingFigure {
+  width: 25%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  margin: 25px;
+  width: 25%;
+  display: inline-block; }
+
+h1 {
+  font-size: 4rem;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  background-color: darkgoldenrod; }
+
+h2 {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  font-weight: 400;
+  background-color: none; }
+
+.backgoundPromos {
+  background-color: white; }
+
+.textSizeX {
+  font-size: 3rem; }
+
+.textSizeM {
+  font-size: 2rem; }
+
+.textCenter {
+  text-align: center; }
+
+.textLeft {
+  text-align: left; }
+
+.textRight {
+  text-align: right; }
+
+.textBold {
+  font-weight: 500; }
+
+.textLight {
+  font-weight: 300; }
+
+.textRegular {
+  font-weight: 400; }
+
+.imgLogo {
+  width: 90px; }
+
+.imgHeader {
+  width: 100%;
+  height: 90vh;
+  margin: 0px;
+  padding-top: 60px; }
+
+#botonera img {
+  width: 80px; }
+
+.bg-black {
+  background-color: black; }
+
+.navbarWhite {
+  list-style: none;
+  color: white;
+  font-size: 2rem; }
+
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%;
+  background-color: palegoldenrod; }
+
+p {
+  font-size: 1.5rem; }
+
+#heroe {
+  padding-top: 70px;
+  padding-bottom: 0; }
+
+.colorFondo {
+  background-color: palegoldenrod;
+  overflow-x: hidden; }
+
+.backgroundSectionN {
+  background-color: #D9CA9C;
+  margin: 20px 0; }
+
+.boxArticle {
+  width: 40%;
+  margin: 0px 15px;
+  padding: 40px 30px;
+  border: solid 1px black;
+  overflow: none; }
+
+.error404 {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
+.imgError {
+  width: 50%; }
+
+.ContenedorError {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center; }
+
+.errorText {
+  font-size: 20px; }
+
+@media only screen and (max-width: 992px) {
+  .boxArticle {
+    width: 92%; } }
+
+.backgroundSectionP {
+  background-image: url(../imagenes/fondomadera.jpg);
+  background-size: cover;
+  padding: 20px 0;
+  margin: 20px 0; }
+
+.articleDestacados {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center; }
+
+.tamañoImagen {
+  width: 220px;
+  height: 300px; }
+
+.tamañoImagenSmir {
+  width: 220px;
+  height: 300px;
+  margin-left: 5px; }
+
+.btnColor {
+  background-color: lightslategrey; }
+
+.backgoundPromos {
+  background-color: white; }
+
+#paddingProductos {
+  margin-bottom: 40px;
+  margin-top: 70px;
+  overflow: hidden; }
+
+.marginSection {
+  margin: 10px;
+  padding-bottom: 50px; }
+
+.scale:hover {
+  transform: scale(1.1);
+  cursor: pointer; }
+
+.imageProductos {
+  width: 220px;
+  height: 280px; }
+
+.w {
+  width: 25%;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.botonProductos {
+  background-color: lightgrey; }
+
+#paddingPromociones {
+  padding-top: 70px;
+  overflow: hidden; }
+
+.paddingFigure {
+  padding-bottom: 30px;
+  margin: 25px;
+  width: 25%; }
+
+.imagePromociones {
+  width: 220px;
+  height: 280px; }
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.sectionmargin {
+  padding-left: 110px; }
+
+@media only screen and (max-width: 280px) {
+  .img280 {
+    width: 160px;
+    height: 220px; }
+  .marginD280 {
+    margin-right: 60px; } }
+
+.paddingService {
+  padding-top: 70px;
+  overflow: hidden; }
+
+.marginTopp {
+  padding: 0px 60px;
+  width: 35%; }
+
+.backgroundBarra {
+  background-color: #dfba96;
+  width: 100%;
+  padding: 20px 0; }
+
+.imageEventos {
+  width: 90%; }
+
+.asdf {
+  width: 30%; }
+
+.backgroundEntrega {
+  background-color: #e9c4a0; }
+
+.backgroundAsesor {
+  background-color: #ffddb8; }
+
+@media only screen and (max-width: 992px) {
+  .marginTopp {
+    padding: 0px 30px;
+    width: 90%; }
+  .imageEventos {
+    width: 90%; } }
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    width: 100vw;
+    font-size: 35px; }
+  .h1width {
+    height: 85px; } }
+
+#paddingContacto {
+  padding-top: 70px; }
+
+.centrarIzq {
+  margin: 0 50px; }
+
+@media only screen and (min-width: 992px) {
+  .marginRight {
+    margin-right: 150px; }
+  .marginLeft {
+    margin-left: 150px; } }
+
+@media only screen and (max-width: 512px) {
+  div {
+    font-size: 2rem; }
+  .articleWidth {
+    margin: 25px 0; } }
+
+footer a img {
+  width: 50px; }
+
+.pie {
+  background-color: #E2D3A3;
+  padding: 10px 0; }

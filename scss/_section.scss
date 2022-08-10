@@ -1,0 +1,44 @@
+#heroe{
+    padding-top:70px;
+	padding-bottom: 0;
+}
+.colorFondo{
+	background-color:  $mainColor;
+	overflow-x: hidden;
+}
+.backgroundSectionN{
+	background-color: #D9CA9C;
+	margin: 20px 0;
+}
+.boxArticle{
+	width: 40%;
+	margin: 0px 15px ;
+	padding: 40px 30px;
+	border:solid 1px  $black;
+	overflow: none;		
+}
+.error404{
+	background-color: $white;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+.imgError{
+	width: 50%;
+}
+.ContenedorError{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+	justify-content: center;
+}
+.errorText{
+	font-size: 20px;
+}
+@media only screen and (max-width:  992px){
+	.boxArticle{
+		width: 92%;
+	}
+}	
